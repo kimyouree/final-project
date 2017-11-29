@@ -1,0 +1,80 @@
+.App {
+  height: 100%; 
+  width: 100vw; 
+  background-image: url('/trianglebg.png');
+  text-align: center;
+  justify-content: center; 
+  color: #8995E7; 
+}
+
+.App--h1{
+  /* background-color: lightgreen;
+  position: center; 
+  max-width: 40%;  */
+  margin:0;
+  padding-top:1.5%;
+  /* font-family: 'Berkshire Swash', cursive; */
+  font-family: 'Shrikhand', cursive; 
+  
+}
+.App--h4{
+    /* font-family: 'Cabin Sketch', cursive; */
+  font-family: 'Indie Flower', cursive;
+  /* font-family: 'Comfortaa', cursive; */
+  /* font-family: 'Nunito Sans', sans-serif; */
+  margin: 0; 
+  margin-bottom: 2%; 
+
+}
+
+.Map-container{
+  position: relative;
+  display: inline-block; 
+  height: 500px; 
+  width: 660px; 
+  /* margin:50px;  */
+  background-color: pink;
+  border-radius: 8%;
+}
+.map-div{
+  border-radius: 10%;
+}
+
+.icon{
+  border-radius: 100%; 
+}
+
+.form-container{
+  position: relative; 
+  display: inline-block; 
+  /* top: 20%;  */
+  width: 300px;  
+  margin:0 15% 0 10%; 
+  padding: 0 5%;
+}
+
+.form-control{
+  text-align: center
+}
+
+/* .header2{
+  width: 200px; 
+  text-align: justify
+} */
+
+
+.form--p{
+  text-align: justify; 
+  font-size: 12px;
+}
+
+#infoBox{
+  color: #EC5E80;
+  border-radius: 5%; 
+  border: 1px solid #8995E7;
+}
+
+.page-footer{
+  font-weight: thin;
+  
+}
